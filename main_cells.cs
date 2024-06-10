@@ -46,16 +46,4 @@ public class MazeCell : MonoBehaviour
     {
         _backWall.SetActive(false);
     }
-
-    public void _unvisitedBlock()
-    {
-        if (_unvisitedBlock != null)
-        {
-            Debug.Log("Cell visited!");
-        }
-        else
-        {
-            Debug.LogError("Error: _unvisitedBlock is not assigned!");
-        }
-    }
 }
